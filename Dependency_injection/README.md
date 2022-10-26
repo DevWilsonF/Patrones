@@ -1,1 +1,1 @@
-# Abstract_factory # Command
+# Dependency injection

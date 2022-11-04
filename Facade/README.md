@@ -1,1 +1,3 @@
 # Facade
+Este patrón se desarrolla estructuralmente porque permite una interfaz esquemática con un marco, biblioteca u otro tipo de clases. También promueve la estructuración del entorno de programación y minimiza la complejidad de su distribución en  subsistemas,  reduciendo las interacciones y  dependencias  entre ellos. La plantilla es responsable de definir el objeto (frontend) que usa la interfaz común de  las interfaces del subsistema, y ​​también puede realizar algunas acciones adicionales antes y después de generar una solicitud al cliente. 
+Este modelo se utiliza cuando es necesario habilitar la aplicación de una interfaz (simple)  a un subsistema complejo, o  cuando esto no es posible, cuando se desea estructurar varios subsistemas como capas.

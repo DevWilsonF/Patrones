@@ -1,1 +1,3 @@
 # Proxy
+Este es un componente de software que realiza la tarea de proporcionar una interfaz entre los discos y las aplicaciones. Este patrón es muy utilizado porque es fácil de implementar. Debido a que tiene claras ventajas, le permite separar completamente su lógica de acceso a datos de sus objetos comerciales. Su estructura es:
+Objetos de negocio. Representa un objeto con lógica empresarial. Objeto de acceso a datos. Esto representa un nivel de acceso a los datos que oculta la fuente y los detalles de la recuperación de datos. objeto de transferencia. Implementa un patrón que realiza la función de transferir información entre DAOs y servicios empresariales. Finalmente, tenemos el DataSource que representa la fuente de datos de forma abstracta.

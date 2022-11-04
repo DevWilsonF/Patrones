@@ -1,1 +1,2 @@
 # Factory
+Este patrón permite crear objetos sin especificar una clase exacta, por lo que los objetos creados se pueden intercambiar fácilmente. Lo que Factory quiere hacer es resolver el problema de crear objetos concretos a partir de clases en programación orientada a objetos. Es un patrón de diseño que proporciona una interfaz que permite crear objetos en superclases al mismo tiempo que permite cambiar el tipo de objeto creado. Su estructura se basa en: Un producto que declara una interfaz.
